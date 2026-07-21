@@ -2,7 +2,7 @@
 
 ROFS-8 is an open standard for structured reasoning and decision evaluation.
 ROFS-8 is an open reasoning evaluation framework designed to standardize how humans,LLMs and AI agents perform structured reasoning, evidence assessment, contradiction analysis and decision convergence.
-5M1E ➔ + WHEN + WHY ➔ ROFS-8 ➔ Structured Reasoning ➔ Evidence ➔ Decision ➔ Evolution
+*5M1E ➔ + WHEN + WHY ➔ ROFS-8 ➔ Structured Reasoning ➔ Evidence ➔ Decision ➔ Evolution*
 
 Version: v1.0 | 2026-04-24  
 Author: Reco Fu | Elegant Architecture Technology
@@ -18,6 +18,7 @@ Unlike static diagnostic buckets (5M1E), ROFS-8 is a dynamic multi-factor intera
 - 5M1E identifies *where* a problem resides.  
 - ROFS-8 reveals *how* the problem propagates across dimensions and *which dimension will be affected next*.  
 This whitepaper addresses a new challenge: ensuring consistency, auditability, and dynamic update capability of ROFS-8 within distributed infrastructures such as offline systems, blockchain, and Git version control.
+
 ---
 ## 2. ROFS-8 Core Framework
 ### 2.1 Eight-Dimensional Definition 
