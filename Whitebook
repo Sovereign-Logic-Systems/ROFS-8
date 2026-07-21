@@ -10,7 +10,7 @@ Society
 ---
 ## 1. Executive Summary
 ROFS-8 extends the industrial 5M1E (WHO/WITH/WHAT/HOW/WHERE/HOW-MUCH) by adding WHEN (time) and WHY (purpose), forming a complete set of eight semantic dimensions.  
-Unlike static diagnostic buckets (5M1E), ROFS-8 is a dynamic multi-game arena where all eight dimensions exert simultaneous influence. The equilibrium solution, **Decision\***, reflects the weighted balance under current conditions. The concept of **dim_flow** describes how semantics propagate across dimensions, revealing causal directionality absent in 5M1E.  
+Unlike static diagnostic buckets (5M1E), ROFS-8 is a dynamic multi-factor interaction model where all eight dimensions exert simultaneous influence. The equilibrium solution, **Decision\***, reflects the weighted balance under current conditions. The concept of **dim_flow** describes how semantics propagate across dimensions, revealing causal directionality absent in 5M1E.  
 **Core Insight**:  
 - 5M1E identifies *where* a problem resides.  
 - ROFS-8 reveals *how* the problem propagates across dimensions and *which dimension will be affected next*.  
@@ -75,7 +75,7 @@ Inspired by database normalization (1NF/2NF/3NF), ROFS-8 prevents semantic redun
 ---
 ## 6. SeL Health Detection
 Semantic Lock (SeL) is systemic risk in distributed AI: nodes cease belief updates, outputs converge excessively.  
-- **Indicators**: Purpose ratio >40%, weight variance <0.05, entropy <0.3.  
+- **Indicators**: These thresholds are exploratory parameters for future validation.  
 - **Actions**: reclassification, recalibration, red-team input injection.  
 ---
 ## 7. Standard Operating Procedures (SOP)
