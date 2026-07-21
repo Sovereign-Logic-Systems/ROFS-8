@@ -25,7 +25,8 @@ The eight dimensions are: • Human — actors and stakeholders • Machine — 
 ________________________________________
 The core idea: 5M1E helps identify where a problem exists. ROFS-8 aims to reveal how problems propagate across dimensions and influence future decisions. By introducing concepts such as dynamic dimension weighting and semantic flow (dim_flow), ROFS-8 explores a more adaptive approach to reasoning in complex environments.
 ________________________________________
-This is only the beginning. My goal is to build an open reasoning framework that can be explored, challenged, improved, and eventually applied across: • AI agents • Enterprise decision systems • Knowledge management • Autonomous systems • Human-AI collaboration ROFS-8 is now publicly available. I welcome feedback, discussion, and constructive criticism from researchers, engineers, and practitioners. #AI #LLM #Agents #OpenSource #DecisionMaking #SystemsThinking #KnowledgeEngineering
+This is only the beginning. My goal is to build an open reasoning framework that can be explored, challenged, improved, and eventually applied across: • AI agents • Enterprise decision systems • Knowledge management • Autonomous systems • Human-AI collaboration ROFS-8 is now publicly available. I welcome feedback, discussion, and constructive criticism from researchers, engineers, and practitioners.
+#AI #LLM #Agents #OpenSource #DecisionMaking #SystemsThinking #KnowledgeEngineering
 
 ---
 
