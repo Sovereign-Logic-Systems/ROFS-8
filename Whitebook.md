@@ -286,8 +286,8 @@ This is the minimum shape of a readable ROFS-8 demonstration.
 ## Appendix C. Suggested Future Artifacts
 
 Recommended next artifacts:
-- `governance.md`(https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/GOVERNANCE.md)
-- `roadmap.md`(https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/ROADMAP.md)
+- [`GOVERNANCE.md`](https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/GOVERNANCE.md)
+- [`ROADMAP.md`](https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/ROADMAP.md)
 - `examples/`
 - `reference-implementation/`
 - `validation-notes.md`
