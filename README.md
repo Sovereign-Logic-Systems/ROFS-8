@@ -12,7 +12,7 @@ It provides an eight-dimensional semantic framework that helps humans, LLMs, and
 
 ## Why ROFS-8?
 
-Modern AI systems can generate answers, but reliable decision-making requires:
+As reasoning increasingly becomes distributed across humans, AI assistants, autonomous agents, and enterprise workflows, preserving reasoning context becomes increasingly important.
 
 - traceable reasoning
 - evidence evaluation
