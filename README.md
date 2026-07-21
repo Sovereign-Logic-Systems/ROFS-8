@@ -1,8 +1,8 @@
 # ROFS-8
 
-## Open Standard Proposal for Structured Reasoning and Decision Evaluation
+## ROFS-8 is an open standard proposal for structured reasoning and decision evaluation.
 
-ROFS-8 provides a semantic architecture for preserving reasoning context across humans, LLMs, and AI agents.
+It provides an eight-dimensional semantic framework that helps humans, LLMs, and AI agents organize reasoning, evaluate evidence, analyze contradictions, and converge toward explainable decisions.
 
 - Structured reasoning
 - Evidence assessment
