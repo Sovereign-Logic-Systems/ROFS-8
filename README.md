@@ -1,6 +1,12 @@
 # ROFS-8  
-Dynamic Multi-Game Semantic Framework  
-Distributed Architecture Integration Whitepaper + SOP  
+ROFS-8 is an open standard for structured reasoning and decision evaluation.
+
+ROFS-8 is an open reasoning evaluation framework
+designed to standardize how humans,
+LLMs and AI agents perform structured reasoning,
+evidence assessment,
+contradiction analysis
+and decision convergence.
 
 **Version**: v1.0 | 2026-04-24  
 **Author**: Reco Fu | Elegant Architecture Technology Society  
@@ -162,4 +168,7 @@ Semantic Lock (SeL) is systemic risk in distributed AI: nodes cease belief updat
 
 **Closing Note**:  
 5M1E tells you *where* the problem is. ROFS-8 tells you *how* it propagates. **dim_flow** is the line from static diagnosis to dynamic game.  
-*Pauca sed matura.*
+
+## License
+This project is licensed under the Apache License 2.0.
+See LICENSE for details.
