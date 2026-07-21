@@ -170,5 +170,7 @@ Semantic Lock (SeL) is systemic risk in distributed AI: nodes cease belief updat
 5M1E tells you *where* the problem is. ROFS-8 tells you *how* it propagates. **dim_flow** is the line from static diagnosis to dynamic game.  
 
 ## License
-This project is licensed under the Apache License 2.0.
-See LICENSE for details.
+This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
+
+**Trademark Notice:**
+ROFS-8™ and Sovereign Logic Systems are trademarks of Reco Fu (Elegant Architecture Technology Society). While this framework is open-source under Apache 2.0, using the ROFS-8 name for commercial endorsement, certification, or derived branding requires explicit permission.
