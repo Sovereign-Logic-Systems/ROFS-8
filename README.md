@@ -2,9 +2,7 @@
 
 ## Open Standard Proposal for Structured Reasoning and Decision Evaluation
 
-ROFS-8 provides an eight-dimensional framework designed to help humans, LLMs, and AI agents perform:
-
-It provides an eight-dimensional framework designed to help humans, LLMs, and AI agents perform:
+ROFS-8 provides a semantic architecture for preserving reasoning context across humans, LLMs, and AI agents.
 
 - Structured reasoning
 - Evidence assessment
