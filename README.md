@@ -1,6 +1,8 @@
 # ROFS-8
 
-ROFS-8 is an open standard proposal for structured reasoning and decision evaluation.
+## Open Standard Proposal for Structured Reasoning and Decision Evaluation
+
+ROFS-8 provides an eight-dimensional framework designed to help humans, LLMs, and AI agents perform:
 
 It provides an eight-dimensional framework designed to help humans, LLMs, and AI agents perform:
 
