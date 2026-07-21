@@ -1,36 +1,20 @@
-# ROFS-8: Dynamic Multi-Dimensional Reasoning Framework
+# ROFS-8
 
-> **Status:** Open Standard Proposal v1.0 (Conceptual / Proposed)  
-> **Maintainer:** Sovereign Logic Systems  
-> **License:** Apache License 2.0
+ROFS-8 is an open standard proposal for structured reasoning and decision evaluation.
+It is designed for humans, LLMs, and AI agents to make reasoning steps explicit, auditable, and reproducible.
+The project is published for public review, implementation, criticism, and extension under Apache 2.0.
+Unless otherwise stated, terms such as equilibrium, directed relation, weighting, and convergence are conceptual or illustrative.
+ROFS-8 focuses on evidence assessment, contradiction analysis, and decision convergence.
+The framework uses eight proposed dimensions: Human, Machine, Material, Method, Environment, Measurement, Time, and Purpose.
+ROFS-8 evolves the familiar 5M1E style of analysis with additional reasoning dimensions.
+This repository contains the canonical whitebook, governance notes, and future reference artifacts.
+Start with Whitebook.md for the full specification and README.md for the quick overview.
 
-Modern AI systems and autonomous agents can generate answers at scale, but reliable decisions require traceable reasoning, evidence evaluation, and contradiction handling. 
+## Quick Links
+- Whitebook.md
+- GOVERNANCE.md
+- ROADMAP.md
+- examples/
 
-**ROFS-8** extends industrial 5M1E analysis into an 8-dimensional structured reasoning and decision evaluation framework designed for humans, LLMs, and AI agents.
-
----
-
-## ⚙️ The 8 Dimensions
-
-`D = {Human, Machine, Material, Method, Environment, Measurement, Time, Purpose}`
-
-[Human / Purpose] (Intent & Context)
-↓
-[Method / Machine] (Execution & System)
-↓
-[Material / Environment] (Resources & Constraints)
-↓
-[Measurement / Time] (Evaluation & Evolution)
-
-
-## 🚀 Quick Start
-
-1. Read the complete [Whitebook](Whitebook.md) for conceptual specifications.
-2. Review the [Roadmap](ROADMAP.md) for near-term implementation goals.
-3. Check [Governance](GOVERNANCE.md) before contributing.
-
-## 📂 Repository Structure
-- `Whitebook.md` — Formal specification and non-claims boundary.
-- `ROADMAP.md` — Implementation milestones.
-- `GOVERNANCE.md` — Contribution and maintenance guidelines.
-- `examples/` — Reference JSON schemas and minimal demonstrations.
+## License
+Apache License 2.0.
