@@ -9,6 +9,7 @@ Author: Reco Fu | Elegant Architecture Technology
 Society  
 Source: 5M1E + WHEN + WHY → Eight-Dimensional Complete Description 
 Red Team Verification: Internal Adversarial Review: Multiple AI systems were used as reasoning assistants during iterative refinement.  
+
 ---
 ## 1. Executive Summary
 ROFS-8 extends the industrial 5M1E (WHO/WITH/WHAT/HOW/WHERE/HOW-MUCH) by adding WHEN (time) and WHY (purpose), forming a complete set of eight semantic dimensions.  
