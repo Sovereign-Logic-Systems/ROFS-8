@@ -18,7 +18,7 @@ This whitepaper addresses a new challenge: ensuring consistency, auditability, a
 ---
 ## 2. ROFS-8 Core Framework
 ### 2.1 Eight-Dimensional Definition 
-\[D = \{ Human, Machine, Material, Method, Environment,Measurement, Time, Purpose \} \]
+$$D = \{ Human, Machine, Material, Method, Environment, Measurement, Time, Purpose \}$$
 - **Human (WHO)**: Actors with intent (#stakeholder, #executor, #opponent)  
 - **Machine (WITH)**: Tools and systems executing actions (#automation, #API, #pipeline)  
 - **Material (WHAT)**: Content assets being processed (#data, #documents, #training-set)  
@@ -28,7 +28,7 @@ This whitepaper addresses a new challenge: ensuring consistency, auditability, a
 - **Time (WHEN)**: Temporal constraints (#version, #changelog, #expiry)  
 - **Purpose (WHY)**: Mission and intent (#OKR, #value-proposition, #final-state)  
 ### 2.2 Decision
-\* Equilibrium (quantified decision model representation) \[ Decision^*(A) = \arg\max \sum_i w_i(t) \cdot dim_i(A) \quad \text{subject to Method-constraints ∧ Measurement-thresholds} \] - \(w_i(t)\): dynamic weights updated by context and time - \(dim_i(A)\): support level of dimension \(i\) for action \(A\)  
+$$Decision^*(A) = \arg\max \sum_i w_i(t) \cdot dim_i(A) \quad \text{subject to Method-constraints } \land \text{ Measurement-thresholds}$$
 **Key Tension Pairs**: 
 - Purpose ↔ Measurement: mission expansion vs. indicator constraints  
 - Human ↔ Machine: human judgment vs. system automation  
