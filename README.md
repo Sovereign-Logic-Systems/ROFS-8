@@ -1,0 +1,165 @@
+# ROFS-8  
+Dynamic Multi-Game Semantic Framework  
+Distributed Architecture Integration Whitepaper + SOP  
+
+**Version**: v1.0 | 2026-04-24  
+**Author**: Reco Fu | Elegant Architecture Technology Society  
+**Source**: 5M1E (ISO) + WHEN + WHY → Eight-Dimensional Complete Description  
+**Red Team Verification**: ChatGPT | Gemini | Grok (three rounds, converged conclusion)  
+
+---
+
+## 1. Executive Summary
+ROFS-8 extends the industrial 5M1E (WHO/WITH/WHAT/HOW/WHERE/HOW-MUCH) by adding WHEN (time) and WHY (purpose), forming a complete set of eight semantic dimensions.  
+
+Unlike static diagnostic buckets (5M1E), ROFS-8 is a dynamic multi-game arena where all eight dimensions exert simultaneous influence. The equilibrium solution, **Decision\***, reflects the weighted balance under current conditions. The concept of **dim_flow** describes how semantics propagate across dimensions, revealing causal directionality absent in 5M1E.  
+
+**Core Insight**:  
+- 5M1E identifies *where* a problem resides.  
+- ROFS-8 reveals *how* the problem propagates across dimensions and *which dimension will be affected next*.  
+
+This whitepaper addresses a new challenge: ensuring consistency, auditability, and dynamic update capability of ROFS-8 within distributed infrastructures such as offline systems, blockchain, and Git version control.
+
+---
+
+## 2. ROFS-8 Core Framework
+
+### 2.1 Eight-Dimensional Definition
+
+
+\[
+D = \{ Human, Machine, Material, Method, Environment, Measurement, Time, Purpose \}
+\]
+
+
+
+- **Human (WHO)**: Actors with intent (#stakeholder, #executor, #opponent)  
+- **Machine (WITH)**: Tools and systems executing actions (#automation, #API, #pipeline)  
+- **Material (WHAT)**: Content assets being processed (#data, #documents, #training-set)  
+- **Method (HOW)**: Rules and constraints (#SOP, #contracts, #regulations)  
+- **Environment (WHERE)**: Dynamic contextual states (#logs, #market, #noise)  
+- **Measurement (HOW-MUCH)**: Quantitative evaluation (#KPI, #thresholds, #stop-loss)  
+- **Time (WHEN)**: Temporal constraints (#version, #changelog, #expiry)  
+- **Purpose (WHY)**: Mission and intent (#OKR, #value-proposition, #final-state)  
+
+### 2.2 Decision\* Equilibrium (Quantified Game)
+
+
+\[
+Decision^*(A) = \arg\max \sum_i w_i(t) \cdot dim_i(A) \quad \text{subject to Method-constraints ∧ Measurement-thresholds}
+\]
+
+
+
+- \(w_i(t)\): dynamic weights updated by context and time  
+- \(dim_i(A)\): support level of dimension \(i\) for action \(A\)  
+
+**Key Tension Pairs**:  
+- Purpose ↔ Measurement: mission expansion vs. indicator constraints  
+- Human ↔ Machine: human judgment vs. system automation  
+- Time ↔ Method: time pressure vs. compliance requirements  
+
+### 2.3 dim_flow: Semantic Causal Direction
+ROFS-8 introduces **dim_flow**, a computable directed edge describing semantic propagation.  
+Example:  
+Human → Machine → Method  
+(decision → system → rule)  
+
+---
+
+## 3. Distributed Infrastructure Integration
+
+### 3.1 Three-Layer Infrastructure Mapping
+- **Git Version Control (Time)**: commits, branches, merges represent temporal nodes and decision convergence.  
+- **Blockchain (Method + Material)**: immutability and smart contracts ensure rule and data integrity.  
+- **Distributed Offline Systems (Environment)**: CAP theorem trade-offs; offline nodes freeze weights until sync.  
+
+### 3.2 CAP Theorem Application
+ROFS-8 prioritizes **AP (Availability + Partition Tolerance)** with eventual consistency.  
+- Offline nodes continue running Decision\* with frozen weights.  
+- Sync uses Git-style merge for conflict resolution.  
+- Blockchain guarantees consistency for Method + Material dimensions.  
+
+### 3.3 Git Workflow SOP
+- Branch naming aligned with dimensions (e.g., `feat/machine-{desc}`, `law/method-{desc}`).  
+- Commit messages standardized as `[Primary][Secondary] Action`.  
+- CI rejects commits without cross-axis validation.  
+
+### 3.4 Blockchain Integration SOP
+- On-chain triggers: finalized Decision\*, signed contracts, frozen datasets.  
+- Exclusions: fast-changing environment states, intermediate commits, private communications.  
+
+---
+
+## 4. ROFS-8 Normalization Rules
+Inspired by database normalization (1NF/2NF/3NF), ROFS-8 prevents semantic redundancy and classification conflicts.  
+- **1NF**: atomic values per dimension slot.  
+- **2NF**: primary and secondary dimensions must cross axes.  
+- **3NF**: Purpose cannot dominate (>40%) without triggering warnings.  
+
+---
+
+## 5. Comparative Architecture: Palantir / Anduril vs. ROFS-8
+- **Input Layer**: sensor signals vs. ROFS-8 tags.  
+- **Ontology Layer**: Foundry Ontology vs. ROFS-8 SQLite + dim_flow graph.  
+- **Inference Layer**: AI/ML updates vs. dynamic Decision\*.  
+- **Action Layer**: Arsenal OS vs. Next Actions.  
+- **Audit Layer**: immutable logs vs. blockchain + Git + SeL detection.  
+
+---
+
+## 6. SeL Health Detection
+Semantic Lock (SeL) is systemic risk in distributed AI: nodes cease belief updates, outputs converge excessively.  
+- **Indicators**: Purpose ratio >40%, weight variance <0.05, entropy <0.3.  
+- **Actions**: reclassification, recalibration, red-team input injection.  
+
+---
+
+## 7. Standard Operating Procedures (SOP)
+
+### 7.1 Daily Operations
+1. Assign primary + secondary dimensions.  
+2. Annotate dim_flow direction.  
+3. Git commit with CI validation.  
+4. Evaluate blockchain conditions.  
+5. Perform SeL health check.  
+
+### 7.2 Conflict Resolution
+- Identify environment conflicts after sync.  
+- Compare offline weight snapshots.  
+- Resolve via higher Measurement scores.  
+- Merge commit with conflict-resolved tag.  
+
+### 7.3 Version Upgrade
+- Tag old version.  
+- Blockchain record if Method changes.  
+- Create new branch for Purpose updates.  
+- Re-run Decision\* with updated weights.  
+- Merge after Measurement validation.  
+
+---
+
+## 8. Quick Reference
+
+### 8.1 Boundary Rules
+- Contracts → Method (not Human)  
+- Logs → Environment (not Machine)  
+- KPI Reports → Measurement (not Material)  
+- Changelog → Time (not Machine)  
+- OKRs → Purpose (not Measurement)  
+
+### 8.2 Complete Tag Index
+- **Human**: #stakeholder, #executor, #opponent  
+- **Machine**: #automation, #API, #pipeline  
+- **Material**: #data, #documents, #training-set  
+- **Method**: #SOP, #contracts, #regulations  
+- **Environment**: #logs, #market, #noise  
+- **Measurement**: #KPI, #thresholds, #stop-loss  
+- **Time**: #version, #changelog, #expiry  
+- **Purpose**: #mission, #OKR, #value-proposition  
+
+---
+
+**Closing Note**:  
+5M1E tells you *where* the problem is. ROFS-8 tells you *how* it propagates. **dim_flow** is the line from static diagnosis to dynamic game.  
+*Pauca sed matura.*
