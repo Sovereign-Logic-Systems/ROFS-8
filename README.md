@@ -33,4 +33,4 @@ This is only the beginning. My goal is to build an open reasoning framework that
 ### 📖 Deep Dive & Technical Specification
 For the complete formal logic, mathematical equilibrium model ($Decision^*$), CAP theorem infrastructure mapping, and Semantic Lock (SeL) detection algorithms, please refer to the core specification:
 
-👉 **[Read the ROFS-8 Official Whitepaper](./Whitebook.md)**
+👉 **[Read the ROFS-8 Official Whitepaper](https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/Whitebook)**
