@@ -1,49 +1,36 @@
-# ROFS-8
+# ROFS-8: Dynamic Multi-Dimensional Reasoning Framework
 
-## ROFS-8 is an open standard proposal for structured reasoning and decision evaluation.
+> **Status:** Open Standard Proposal v1.0 (Conceptual / Proposed)  
+> **Maintainer:** Sovereign Logic Systems  
+> **License:** Apache License 2.0
 
-It provides an eight-dimensional semantic framework that helps humans, LLMs, and AI agents organize reasoning, evaluate evidence, analyze contradictions, and converge toward explainable decisions.
+Modern AI systems and autonomous agents can generate answers at scale, but reliable decisions require traceable reasoning, evidence evaluation, and contradiction handling. 
 
-- Structured reasoning
-- Evidence assessment
-- Contradiction analysis
-- Decision evaluation
-- Continuous improvement
-
-## Why ROFS-8?
-
-As reasoning increasingly becomes distributed across humans, AI assistants, autonomous agents, and enterprise workflows, preserving reasoning context becomes increasingly important.
-
-- traceable reasoning
-- evidence evaluation
-- contradiction handling
-- adaptive updates
-
-5M1E ➔ + WHEN + WHY ➔ ROFS-8 ➔ Structured Reasoning ➔ Evidence ➔ Decision ➔ Evolution
-
-The eight dimensions are: • Human — actors and stakeholders • Machine — tools and systems • Material — information and assets • Method — rules and constraints • Environment — external conditions • Measurement — quantitative evaluation • Time — temporal context • Purpose — objectives and intent
-________________________________________
-The core idea: 5M1E helps identify where a problem exists. ROFS-8 aims to reveal how problems propagate across dimensions and influence future decisions. By introducing concepts such as dynamic dimension weighting and semantic flow (dim_flow), ROFS-8 explores a more adaptive approach to reasoning in complex environments.
-________________________________________
-ROFS-8 is intended to evolve through open discussion,community review,independent implementation,and practical engineering experience. My goal is to build an open reasoning framework that can be explored, challenged, improved, and eventually applied across: • AI agents • Enterprise decision systems • Knowledge management • Autonomous systems • Human-AI collaboration ROFS-8 is now publicly available. I welcome feedback, discussion, and constructive criticism from researchers, engineers, and practitioners.
-#AI #LLM #Agents #OpenSource #DecisionMaking #SystemsThinking #KnowledgeEngineering
+**ROFS-8** extends industrial 5M1E analysis into an 8-dimensional structured reasoning and decision evaluation framework designed for humans, LLMs, and AI agents.
 
 ---
-## Citation
-If ROFS-8 contributes to research, publications, AI systems, derivative reasoning frameworks, or commercial products, citation of the original project is appreciated.
-Suggested citation:
-> Fu, R. (2026). *ROFS-8: An Open Standard Proposal for Structured Reasoning and Decision Evaluation.* Sovereign Logic Systems. https://github.com/Sovereign-Logic-Systems/ROFS-8
-Academic, industrial, and open-source references are encouraged to preserve the historical evolution of the framework.
 
-## Trademark Notice
-ROFS-8™, Sovereign Logic Systems™, and related project names are trademarks of Reco Fu.
-The Apache 2.0 license permits use of the repository contents.
-However, use of the ROFS-8 name, logo, certification, or endorsement for commercial branding requires explicit permission.
-Independent implementations may describe themselves as:
-> Compatible with ROFS-8
-but should not imply official certification or endorsement without authorization.
+## ⚙️ The 8 Dimensions
 
-### 📖 Deep Dive & Technical Specification
-For the complete formal logic, mathematical equilibrium model ($Decision^*$), CAP theorem infrastructure mapping, and Semantic Lock (SeL) detection algorithms, please refer to the core specification:
+`D = {Human, Machine, Material, Method, Environment, Measurement, Time, Purpose}`
 
-👉 **[Read the ROFS-8 Official Whitepaper](https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/Whitebook)**
+[Human / Purpose] (Intent & Context)
+↓
+[Method / Machine] (Execution & System)
+↓
+[Material / Environment] (Resources & Constraints)
+↓
+[Measurement / Time] (Evaluation & Evolution)
+
+
+## 🚀 Quick Start
+
+1. Read the complete [Whitebook](Whitebook.md) for conceptual specifications.
+2. Review the [Roadmap](ROADMAP.md) for near-term implementation goals.
+3. Check [Governance](GOVERNANCE.md) before contributing.
+
+## 📂 Repository Structure
+- `Whitebook.md` — Formal specification and non-claims boundary.
+- `ROADMAP.md` — Implementation milestones.
+- `GOVERNANCE.md` — Contribution and maintenance guidelines.
+- `examples/` — Reference JSON schemas and minimal demonstrations.
