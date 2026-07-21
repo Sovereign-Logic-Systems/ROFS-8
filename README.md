@@ -87,9 +87,16 @@ ROFS-8 prioritizes **AP (Availability + Partition Tolerance)** with eventual con
 - Blockchain guarantees consistency for Method + Material dimensions.  
 
 ### 3.3 Git Workflow SOP
-- Branch naming aligned with dimensions (e.g., `feat/machine-{desc}`, `law/method-{desc}`).  
-- Commit messages standardized as `[Primary][Secondary] Action`.  
-- CI rejects commits without cross-axis validation.  
+
+- **Branch naming:** aligned with dimensions (e.g., `feat/machine-{desc}`, `law/method-{desc}`).
+- **Commit messages:** standardized as `[Primary][Secondary] Action`.
+- **CI Validation:** rejects commits without cross-axis validation.
+
+**Example Commit Message:**
+[Measurement][Environment] Adjust dynamic stop-loss thresholds to accommodate high volatility
+
+- dim_flow: Environment (#market) → Measurement (#stop-loss) → Machine (#automation)
+- Explanation: Increased market noise is detected, and the stop-loss range is increased to maintain the continuity of the unattended strategy.
 
 ### 3.4 Blockchain Integration SOP
 - On-chain triggers: finalized Decision\*, signed contracts, frozen datasets.  
