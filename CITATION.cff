@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+
+title: "ROFS-8"
+
+message: >
+  If you use ROFS-8 in research, publications,
+  AI systems, or derivative reasoning frameworks,
+  please cite this repository.
+
+type: software
+
+authors:
+  - family-names: Fu
+    given-names: Reco
+
+repository-code: https://github.com/Sovereign-Logic-Systems/ROFS-8
+
+url: https://github.com/Sovereign-Logic-Systems/ROFS-8
+
+license: Apache-2.0
+
+version: "1.0"
+
+date-released: 2026-07-21
+
+abstract: >
+  ROFS-8 is an open standard proposal for structured reasoning
+  and decision evaluation. It extends the industrial 5M1E model
+  into an eight-dimensional semantic framework for humans,
+  LLMs, and AI agents.
