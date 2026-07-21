@@ -12,9 +12,9 @@ This repository contains the canonical whitebook, governance notes, and future r
 Start with Whitebook.md for the full specification and README.md for the quick overview.
 
 ## Quick Links
-- Whitebook.md (https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/Whitebook.md)
-- GOVERNANCE.md (https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/GOVERNANCE.md)
-- ROADMAP.md (https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/ROADMAP.md)
+- [`Whitebook.md`](https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/Whitebook.md)
+- [`GOVERNANCE.md`](https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/GOVERNANCE.md)
+- [`ROADMAP.md`](https://github.com/Sovereign-Logic-Systems/ROFS-8/blob/main/ROADMAP.md)
 - examples/
 
 ## License
