@@ -6,18 +6,7 @@ LLMs and AI agents perform structured reasoning,
 evidence assessment,
 contradiction analysis and decision convergence.
 
-5M1E
-   ↓
-+ WHEN
-+ WHY
-   ↓
-ROFS-8
-   ↓
-Structured Reasoning
-   ↓
-Evidence
-   ↓
-Decision
+5M1E ➔ + WHEN + WHY ➔ ROFS-8 ➔ Structured Reasoning ➔ Evidence ➔ Decision ➔ Evolution
 
 **Version**: v1.0 | 2026-04-24  
 **Author**: Reco Fu | Elegant Architecture Technology Society  
