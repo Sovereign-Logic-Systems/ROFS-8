@@ -40,6 +40,7 @@ $$Decision^*(A) = \arg\max \sum_i w_i(t) \cdot dim_i(A) \quad \text{subject to M
 ### 2.3 dim_flow: Semantic Causal Direction
 ROFS-8 introduces **dim_flow**, a computable directed edge describing semantic propagation.  
 Example:  Human → Machine → Method (decision → system → rule)  
+
 ---
 ## 3. Distributed Infrastructure Integration
 ### 3.1 Three-Layer Infrastructure Mapping
@@ -118,6 +119,7 @@ Purpose (not Measurement)
 - **Measurement**: #KPI, #thresholds, #stop-loss  
 - **Time**: #version, #changelog, #expiry  
 - **Purpose**: #mission, #OKR, #value-proposition  
+
 ---
 ## Status ROFS-8 is currently an open standard proposal (v1.0). The framework is released for community review, experimentation, and iterative improvement.
 
